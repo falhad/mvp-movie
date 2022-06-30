@@ -1,0 +1,210 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "6d7eadd4e2f83d65d1528e7e6ed922d7",
+    "entities": [
+      {
+        "tableName": "settings",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`key` TEXT NOT NULL, `value` TEXT, PRIMARY KEY(`key`))",
+        "fields": [
+          {
+            "fieldPath": "key",
+            "columnName": "key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "value",
+            "columnName": "value",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "key"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "movies",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`imdbID` TEXT NOT NULL, `Actors` TEXT, `Awards` TEXT, `BoxOffice` TEXT, `Country` TEXT, `DVD` TEXT, `Director` TEXT, `Genre` TEXT, `imdbRating` TEXT, `imdbVotes` TEXT, `Language` TEXT, `Metascore` TEXT, `Plot` TEXT, `Poster` TEXT, `Production` TEXT, `Rated` TEXT, `Ratings` TEXT, `Released` TEXT, `Response` TEXT, `Runtime` TEXT, `Title` TEXT, `totalSeasons` TEXT, `Type` TEXT, `Website` TEXT, `Writer` TEXT, `Year` TEXT, PRIMARY KEY(`imdbID`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "imdbID",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "actors",
+            "columnName": "Actors",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "awards",
+            "columnName": "Awards",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "boxOffice",
+            "columnName": "BoxOffice",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "country",
+            "columnName": "Country",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "dVD",
+            "columnName": "DVD",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "director",
+            "columnName": "Director",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "genre",
+            "columnName": "Genre",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "imdbRating",
+            "columnName": "imdbRating",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "imdbVotes",
+            "columnName": "imdbVotes",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "Language",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "metascore",
+            "columnName": "Metascore",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "plot",
+            "columnName": "Plot",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "poster",
+            "columnName": "Poster",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "production",
+            "columnName": "Production",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "rated",
+            "columnName": "Rated",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ratings",
+            "columnName": "Ratings",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "released",
+            "columnName": "Released",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "response",
+            "columnName": "Response",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "runtime",
+            "columnName": "Runtime",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "Title",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "totalSeasons",
+            "columnName": "totalSeasons",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "Type",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "website",
+            "columnName": "Website",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "writer",
+            "columnName": "Writer",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "Year",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "imdbID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6d7eadd4e2f83d65d1528e7e6ed922d7')"
+    ]
+  }
+}
