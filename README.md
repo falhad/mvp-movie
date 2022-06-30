@@ -1,6 +1,5 @@
 <p align="center">
-![logo](screenshots/logo.png?raw=true "logo")
-  <h1 align="center">MVP Movie Showcase 👋</h1>
+  <h1 align="center">MVP Movie 🍿 Showcase </h1>
 </p>
 
 <p>
