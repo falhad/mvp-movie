@@ -1,5 +1,5 @@
 <p align="center">
-  ![Logo](screenshots/logo.png?raw=true "Logo")
+![logo](screenshots/logo.png?raw=true "logo")
   <h1 align="center">MVP Movie Showcase 👋</h1>
 </p>
 
@@ -27,7 +27,9 @@ Search Shimmer Effect | Search Results | Favorites
 --- | --- | --- 
 ![04](screenshots/04.jpg?raw=true "04") | ![05](screenshots/05.jpg?raw=true "05") | ![06](screenshots/06.jpg?raw=true "06")
 
-### 📥 [Direct Download](https://github.com/falhad/mvp-movie/apk)
+### 📥 Direct Download
+
+You can easily download the compiled version of APK from [Apk folder](https://github.com/falhad/mvp-movie/tree/main/apk) 
 
 ### 🚀 Build & Run
 
