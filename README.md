@@ -18,12 +18,14 @@
 
 ### 🖼️ [Screenshots](https://github.com/falhad/mvp-movie)
 
-![01](screenshots/01.jpg?raw=true "01")
-![02](screenshots/01.jpg?raw=true "02")
-![03](screenshots/01.jpg?raw=true "03")
-![04](screenshots/01.jpg?raw=true "04")
-![05](screenshots/01.jpg?raw=true "05")
-![06](screenshots/01.jpg?raw=true "06")
+
+HomeScreen | MovieScreen | Drawer
+--- | --- | --- 
+![01](screenshots/01.jpg?raw=true "01") | ![02](screenshots/02.jpg?raw=true "02") | ![03](screenshots/03.jpg?raw=true "03")
+
+Search Shimmer Effect | Search Results | Favorites
+--- | --- | --- 
+![04](screenshots/04.jpg?raw=true "04") | ![05](screenshots/05.jpg?raw=true "05") | ![06](screenshots/06.jpg?raw=true "06")
 
 ### 📥 [Direct Download](https://github.com/falhad/mvp-movie/apk)
 
